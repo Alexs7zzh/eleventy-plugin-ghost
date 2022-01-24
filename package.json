@@ -1,16 +1,15 @@
 {
-  "name": "eleventy-plugin-ghost",
-  "version": "1.3.3",
+  "name": "@alexs7/eleventy-plugin-ghost",
+  "version": "1.0.0",
   "description": "Access the Ghost Content API in Eleventy 👻🎛",
-  "homepage": "https://github.com/daviddarnes/eleventy-plugin-ghost",
+  "homepage": "https://github.com/Alexs7zzh/eleventy-plugin-ghost",
   "main": ".eleventy.js",
   "scripts": {
-    "build": "eleventy",
-    "bump": "npm --no-git-tag-version version"
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daviddarnes/eleventy-plugin-ghost.git"
+    "url": "git+https://github.com/Alexs7zzh/eleventy-plugin-ghost.git"
   },
   "keywords": [
     "11ty",
@@ -21,16 +20,12 @@
     "ghost-api",
     "headless-cms"
   ],
-  "author": {
-    "name": "daviddarnes",
-    "url": "https://darn.es"
-  },
+  "author": "Alex Zhou",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/daviddarnes/eleventy-plugin-ghost/issues"
-  },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0-canary.41",
-    "@11ty/eleventy-cache-assets": "^2.1.0"
+    "@11ty/eleventy-cache-assets": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@11ty/eleventy": "1.x"
   }
 }
